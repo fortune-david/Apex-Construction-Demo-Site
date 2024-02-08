@@ -1,0 +1,56 @@
+#title {
+    background-image: url("/young-black-race-man-with-blueprint-stading-near-glass-building.jpg");
+    background-size: cover;
+   
+}
+#hero {
+    background-color: #ffffff6c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1 {
+    font-size: 4rem;
+}
+#hire-us {
+width: 250px;
+}
+.feature-icon {
+    height: 50px;
+}
+#black-carousel h5, #black-carousel p {
+    color: black;
+    background-color: #ffffff6c;
+}
+#nav {
+    position:fixed;
+    width: 100vw;
+    z-index: 10;
+    top: 0;
+}
+.footer-icon {
+    height: 30px;
+}
+#faq{
+text-decoration: none;
+}
+
+@media (max-width: 600px) {
+#hero h1 {
+font-size: 2rem;
+}
+#hire-us {
+    width: 100px;
+  
+}
+}
+@media (max-width: 900px) {
+#hero h1 {
+font-size: 2rem;
+}
+#hire-us {
+    width: 150px;
+    
+}
+}
